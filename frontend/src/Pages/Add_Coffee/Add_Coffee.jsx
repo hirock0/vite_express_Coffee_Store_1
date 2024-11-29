@@ -19,7 +19,7 @@ const Add_Coffee = () => {
         coffee_image: coffeeImage,
       };
       const response = await axios.post(
-        "http://localhost:5000/api/upload",
+        "https://coffee-backend-z9tc.onrender.com/api/upload",
         coffeeObj
       );
       console.log(response);
